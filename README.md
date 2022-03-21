@@ -34,7 +34,7 @@ git --exec-path
 
 Add a repository with a Maven package:
 
-sudo wget https://repos.fedorapeople.org/repos/... -O /etc/yum.repos.d/epel-apache-maven.repo
+sudo wget https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
 
 Enter the following to set the version number for the packages:
 sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
