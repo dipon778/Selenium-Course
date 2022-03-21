@@ -46,12 +46,12 @@ Find Maven Path:
 mvn -version
 
 Install Chrome Driver:
-sudo wget https://chromedriver.storage.googleap...
+sudo wget https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_linux64.zip
 sudo unzip chromedriver_linux64.zip
 sudo mv chromedriver /usr/bin/chromedriver
 chromedriver –version
 
 Install Chrome Binary:
-sudo curl https://intoli.com/install-google-chr... | bash
+curl https://intoli.com/install-google-chrome.sh | bash
 sudo mv /usr/bin/google-chrome-stable /usr/bin/google-chrome
 google-chrome –version
